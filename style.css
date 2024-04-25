@@ -1,4 +1,135 @@
 body {
     width: 1920px;
-height: 3504px;
+    height: 3504px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+/* Styles for the header */
+.header-item {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.header-item-2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #b2ffa6;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-wrapper {
+    width: 1920px;
+    height: 100px;
+    background: #121212;
+}
+
+/* Styles for the main */
+/* Styles for the first section */
+.free-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    text-transform: capitalize;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.free-title-2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    text-transform: capitalize;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.free-link {
+    border-radius: 5px;
+    padding: 15px 80px;
+    width: 364px;
+    height: 66px;
+    background: #b2ffa6;
+    text-decoration: none;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.06em;
+    color: #000;
+}
+
+.free-wrapper {
+    margin-left: 150px;
+}
+
+.free-container {
+    display: flex;
+}
+
+.free-img {
+    margin-left: 346px;
+    width: 800px;
+    height: 800px;
+}
+
+/* Styles for the second section */
+.more-container {
+    display: flex;
+    background: #efefef;
+}
+
+.more-img {
+    width: 742px;
+    height: 742px;
+    margin-left: 150px;
+    margin-right: 78px;
+}
+
+.more-title {
+    margin-top: 98px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.more-text {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 60px;
+}
+.more-link {
+    border-radius: 5px;
+    padding: 15px 80px;
+    width: 364px;
+    height: 66px;
+    background: #b2ffa6;
+    text-decoration: none;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.06em;
+    color: #000;
+    margin-bottom: 99px;
 }
