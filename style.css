@@ -118,6 +118,7 @@ body {
     font-size: 32px;
     color: #000;
     margin-bottom: 60px;
+    margin-right: 150px;
 }
 .more-link {
     border-radius: 5px;
@@ -132,4 +133,18 @@ body {
     letter-spacing: 0.06em;
     color: #000;
     margin-bottom: 99px;
+}
+/* Styles for the third section */
+.info-container {
+    display: flex;
+}
+.info-list {
+    list-style: none;
+    margin-top: 191px;
+    margin-right: 174px;
+    margin-left: 150px;
+}
+.info-img {
+    margin-top: 60px;
+    margin-right: 150px;
 }
