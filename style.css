@@ -1,14 +1,16 @@
 body {
-    width: 1920px;
-    height: 3504px;
     margin: 0;
     padding: 0;
     background-color: #fff;
 }
 ul, p, h1, h2, h3 {
     padding: 0;
+    margin: 0;
 }
-
+.container {
+    width: 1620px;
+    margin: 0 auto;
+}
 /* Styles for the header */
 .header-item {
     font-family: "Oswald", sans-serif;
