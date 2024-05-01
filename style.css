@@ -3,47 +3,36 @@ body {
     padding: 0;
     background-color: #fff;
 }
-ul, p, h1, h2, h3 {
+
+ul,
+p,
+h1,
+h2,
+h3 {
     padding: 0;
     margin: 0;
+    list-style: none;
 }
+
 .container {
     width: 1620px;
     margin: 0 auto;
 }
+
 /* Styles for the header */
+.header {
+    background-color: #121212;
+    padding: 32px 0;
+}
 .header-item {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #fff;
-    display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 32px;
-    margin-bottom: 32px;
 }
-
-.header-item-2 {
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: #b2ffa6;
-    display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-}
-
 .header-list {
     display: flex;
-}
-
-.header-wrapper {
-    width: 1920px;
-    height: 100px;
-    background: #121212;
+    gap: 100px;
 }
 
 /* Styles for the main */
@@ -69,41 +58,25 @@ ul, p, h1, h2, h3 {
 .free-link {
     border-radius: 5px;
     padding: 15px 80px;
-    width: 364px;
-    height: 66px;
     background: #b2ffa6;
     text-decoration: none;
-    font-family: var(--second-family);
+    font-family: "Oswald", sans-serif;
     font-weight: 400;
     font-size: 24px;
     letter-spacing: 0.06em;
     color: #000;
 }
 
-.free-wrapper {
-    margin-left: 150px;
-}
-
 .free-container {
     display: flex;
-}
-
-.free-img {
-    margin-left: 346px;
-    width: 800px;
-    height: 800px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Styles for the second section */
 .more-container {
     display: flex;
     background: #efefef;
-}
-
-.more-img {
-    width: 742px;
-    height: 742px;
-    margin-left: 150px;
     margin-right: 78px;
 }
 
@@ -123,13 +96,11 @@ ul, p, h1, h2, h3 {
     font-size: 32px;
     color: #000;
     margin-bottom: 60px;
-    margin-right: 150px;
 }
+
 .more-link {
     border-radius: 5px;
     padding: 15px 80px;
-    width: 364px;
-    height: 66px;
     background: #b2ffa6;
     text-decoration: none;
     font-family: var(--second-family);
@@ -139,17 +110,17 @@ ul, p, h1, h2, h3 {
     color: #000;
     margin-bottom: 99px;
 }
+
 /* Styles for the third section */
 .info-container {
     display: flex;
 }
+
 .info-list {
     list-style: none;
     margin-top: 191px;
-    margin-right: 174px;
-    margin-left: 150px;
 }
+
 .info-img {
     margin-top: 60px;
-    margin-right: 150px;
 }
