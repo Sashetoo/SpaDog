@@ -24,12 +24,14 @@ h3 {
     background-color: #121212;
     padding: 32px 0;
 }
+
 .header-item {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #fff;
 }
+
 .header-list {
     display: flex;
     gap: 100px;
@@ -103,7 +105,7 @@ h3 {
     padding: 15px 80px;
     background: #b2ffa6;
     text-decoration: none;
-    font-family: var(--second-family);
+    font-family: "Oswald", sans-serif;
     font-weight: 400;
     font-size: 24px;
     letter-spacing: 0.06em;
@@ -112,15 +114,52 @@ h3 {
 }
 
 /* Styles for the third section */
+.info {
+    padding: 60px 0;
+}
+
 .info-container {
     display: flex;
+    align-items: center;
 }
 
 .info-list {
-    list-style: none;
-    margin-top: 191px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 115px;
 }
 
-.info-img {
-    margin-top: 60px;
+.info-item {
+    display: flex;
+    width: 407px;
+}
+
+.info-logo {
+    margin-right: 28px;
+    width: 50px;
+    height: 50px;
+}
+
+.info-title {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: capitalize;
+    color: #000;
+    font-family: "Raleway", sans-serif;
+}
+
+.info-text {
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    font-family: "Raleway", sans-serif;
+}
+
+.service {
+    background: #efefef;
+}
+
+footer {
+    background: #121212;
 }
