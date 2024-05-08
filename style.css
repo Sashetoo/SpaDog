@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fff;
 }
 
 ul,
@@ -25,11 +24,18 @@ h3 {
     padding: 32px 0;
 }
 
-.header-item {
+.header-link {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #fff;
+    text-transform: uppercase;
+}
+
+.header-link:hover {
+    font-weight: 400;
+    font-size: 24px;
+    color: #b2ffa6;
 }
 
 .header-list {
@@ -162,4 +168,28 @@ h3 {
 
 footer {
     background: #121212;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    margin-left: 880px;
+}
+
+.footer-title {
+    font-weight: 300;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-left: 50px;
+}
+.footer-img {
+    margin-left: 151px;
 }
