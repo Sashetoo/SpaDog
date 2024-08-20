@@ -169,10 +169,6 @@ h3 {
     font-family: "Raleway", sans-serif;
 }
 
-.info-img {
-    width: 517px;
-}
-
 .service-container {
     text-align: center;
 }
@@ -196,6 +192,7 @@ h3 {
 
 .service-list {
     display: flex;
+    justify-content: space-between;
 }
 
 .service-link {
@@ -209,21 +206,9 @@ h3 {
     transition: background-color 0.3s ease, color 0.3s ease;
     background-color: transparent;
 }
-
 .service-link:hover {
     background-color: #a2fca6;
     color: #fff;
-}
-
-.service-img {
-    width: 360px;
-    margin-right: 20px;
-}
-
-.service-img1 {
-    width: 360px;
-    margin-right: 20px;
-    margin-left: 15px;
 }
 
 .service-list-title {
