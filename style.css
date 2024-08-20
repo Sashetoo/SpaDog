@@ -21,7 +21,10 @@ h3 {
 /* Styles for the header */
 .header {
     background-color: #121212;
-    padding: 32px 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-link {
@@ -80,9 +83,7 @@ h3 {
     align-items: center;
     justify-content: space-between;
 }
-.free-img {
-    width: 800px;
-}
+
 
 /* Styles for the second section */
 .more-container {
@@ -120,6 +121,7 @@ h3 {
     color: #000;
     margin-bottom: 99px;
 }
+
 .more-img {
     width: 714px;
 }
@@ -166,18 +168,19 @@ h3 {
     color: #000;
     font-family: "Raleway", sans-serif;
 }
+
 .info-img {
     width: 517px;
+}
+
+.service-container {
+    text-align: center;
 }
 
 .service {
     background: #efefef;
 }
-.service-link {
-    border: solid #B2FFA6;
-    text-decoration: none;
-    color: #000000;
-}
+
 .service-title {
     text-align: center;
     margin-bottom: 40px;
@@ -185,23 +188,44 @@ h3 {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
 }
+
 .service-text {
-    font-size: 32px;
     font-family: "Raleway", sans-serif;
     margin-bottom: 56px;
 }
+
 .service-list {
     display: flex;
 }
+
+.service-link {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #a2fca6;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: transparent;
+}
+
+.service-link:hover {
+    background-color: #a2fca6;
+    color: #fff;
+}
+
 .service-img {
     width: 360px;
     margin-right: 20px;
 }
+
 .service-img1 {
     width: 360px;
     margin-right: 20px;
     margin-left: 15px;
 }
+
 .service-list-title {
     margin-bottom: 40px;
     display: flex;
@@ -232,6 +256,4 @@ footer {
     color: #fff;
     margin-left: 50px;
 }
-.footer-img {
-    margin-left: 151px;
-}
+
